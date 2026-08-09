@@ -58,3 +58,36 @@ git push
 
 テキスト（STRUCTURE.md / README.md / CHANGELOG.md）は Claude Code が直接編集・コミットできます。
 AEP バイナリ本体の中身は AE で手動更新してください（Claude はファイルの差し替えコミットまで）。
+
+---
+
+## 5. Discord に更新ログを流す
+
+push するたびに `.github/workflows/discord-notify.yml` が Discord に更新内容を投稿します。設定は初回のみ。
+
+### 手順
+
+1. **Discord 側**: 通知したいチャンネル → 「連携サービス」→「ウェブフックを作成」→ **ウェブフックURLをコピー**。
+2. **GitHub 側**: リポジトリ → Settings → Secrets and variables → Actions → **New repository secret**
+   - Name: `DISCORD_WEBHOOK`
+   - Secret: コピーしたウェブフックURL
+
+   `gh` CLI なら1行:
+
+   ```bash
+   gh secret set DISCORD_WEBHOOK --body "https://discord.com/api/webhooks/xxxx/yyyy"
+   ```
+
+3. 何か変更して push → Discord に「🎬 AEテンプレ更新」が届けば成功。
+
+> Webhook URL は Secret に入れるだけ。ファイルやコミットには絶対に書かないこと。
+
+### もっと手軽に済ませたい場合（Actionを使わない代替）
+
+Discord は GitHub 連携を内蔵しています。Actionを使わず、コミット履歴だけ流したいなら:
+
+1. 上と同じく Discord チャンネルのウェブフックURLを取得。
+2. **URLの末尾に `/github` を付ける**（例: `.../webhooks/xxx/yyy/github`）。
+3. GitHub → リポジトリ Settings → Webhooks → Add webhook に、その `/github` 付きURLを Payload URL として登録（Content type: `application/json`、イベントは Just the push event）。
+
+こちらは整形が素っ気ない代わりにゼロコード。好みで選んでください（`discord-notify.yml` の方が見やすいログになります）。
