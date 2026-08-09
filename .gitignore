@@ -1,0 +1,23 @@
+# === After Effects 一時ファイル ===
+*.aep.lock
+# 自動保存フォルダ（テンプレ管理では不要）
+Adobe After Effects Auto-Save/
+# ディスクキャッシュ / メディアキャッシュ
+*/AE Cache/
+# レンダー中間物（テンプレには含めない運用の場合）
+# 必要なら 05_RENDERS 配下は個別に管理してください
+
+# === OS 生成物 ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# === エディタ ===
+.vscode/
+.idea/
+*~
