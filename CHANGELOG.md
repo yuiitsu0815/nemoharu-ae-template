@@ -7,6 +7,10 @@
 
 ---
 
+## [2026-08-10] AEP更新
+- テンプレート本体を配置: `template/NC_AE_Template_25.aep`（AE 2025 用）/ `template/NC_AE_Template_26.aep`（AE 2026 用・最新）
+- README.md / template/README.md をバージョン別2ファイル構成に合わせて更新
+
 ## [2026-08-09] セットアップ拡張
 - Claude Code 管理用に `CLAUDE.md`（運用ルール）と `PROMPTS.md`（プロンプト集）を追加
 - Discord更新通知 `.github/workflows/discord-notify.yml` を追加（Secret: `DISCORD_WEBHOOK`）

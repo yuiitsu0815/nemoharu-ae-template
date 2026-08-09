@@ -19,7 +19,10 @@ After Effects プロジェクトを整理し、**素材・コンポジション�
 編集 → 環境設定 → 新規プロジェクト
 ```
 
-**「新規プロジェクト読み込みテンプレート」を有効**にし、`template/NC_AE_Template.aep` を選択する。
+**「新規プロジェクト読み込みテンプレート」を有効**にし、使用中の AE バージョンに合った AEP を選択する。
+
+- AE 2025: `template/NC_AE_Template_25.aep`
+- AE 2026: `template/NC_AE_Template_26.aep`（最新）
 
 ### ② 新規プロジェクト平面（Solid）フォルダーの設定
 
@@ -103,9 +106,12 @@ AE の Solid 素材を格納。プロジェクト内に自動生成される Sol
 ## 更新の運用ルール
 
 1. 構造・命名を変えるときは **STRUCTURE.md を先に編集**（ここが正本）。
-2. AEP テンプレート本体（`template/NC_AE_Template.aep`）を実際に更新。
+2. AEP テンプレート本体（`template/NC_AE_Template_25.aep` / `NC_AE_Template_26.aep`）を実際に更新。
 3. **CHANGELOG.md** に日付と変更内容を1行追記。
 4. コミットしてpush。
+
+> **注意**: このリポジトリに入れるのは**テンプレートと構造ドキュメントのみ**。
+> 実案件の重い動画・画像素材は入れない（Git LFS の無料枠を守るため。詳細は [CLAUDE.md](CLAUDE.md) の運用ルール参照）。
 
 ---
 
