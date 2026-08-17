@@ -7,6 +7,10 @@
 
 ---
 
+## [2026-08-18] AEP更新 / 修正
+- ビン名タイポ修正: `01_COPOSITION` → `01_COMPOSITION`（25/26両方、AE側で修正）
+- 25/26 の階層が完全一致していることを確認（STRUCTURE.md の既知の相違の注記を削除）
+
 ## [2026-08-18] ドキュメント
 - README を Notion 原文どおりの全文構成に刷新（省略なし・「原典」行を削除・DOWNLOAD を GitHub Releases に変更）
 - STRUCTURE.md を 2026 AEP の実ビン構造に完全同期（old フォルダ・Unreal_Engine を明記、実在ビンと例の区別を明確化）
