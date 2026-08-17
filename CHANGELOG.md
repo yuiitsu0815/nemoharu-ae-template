@@ -7,6 +7,11 @@
 
 ---
 
+## [2026-08-18] ドキュメント
+- README を Notion 原文どおりの全文構成に刷新（省略なし・「原典」行を削除・DOWNLOAD を GitHub Releases に変更）
+- STRUCTURE.md を 2026 AEP の実ビン構造に完全同期（old フォルダ・Unreal_Engine を明記、実在ビンと例の区別を明確化）
+- 既知の相違として AEP 内の `01_COPOSITION` タイポを記録（次回AEP更新で修正予定）
+
 ## [2026-08-18] 構造変更 / AEP更新
 - `05_RENDERS` に `Unreal_Engine` を追加（UE中間レンダーの置き場。STRUCTURE.md / README 同期）
 - `template/NC_AE_Template_26.aep` を最新版に差し替え（AE 2026 保存・上記構造反映済み）
