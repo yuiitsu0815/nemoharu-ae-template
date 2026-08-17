@@ -7,6 +7,11 @@
 
 ---
 
+## [2026-08-18] 構造変更 / AEP更新
+- `05_RENDERS` に `Unreal_Engine` を追加（UE中間レンダーの置き場。STRUCTURE.md / README 同期）
+- `template/NC_AE_Template_26.aep` を最新版に差し替え（AE 2026 保存・上記構造反映済み）
+- GitHub Release による配布を開始（タグ + AEP添付）
+
 ## [2026-08-10] AEP更新
 - テンプレート本体を配置: `template/NC_AE_Template_25.aep`（AE 2025 用）/ `template/NC_AE_Template_26.aep`（AE 2026 用・最新）
 - README.md / template/README.md をバージョン別2ファイル構成に合わせて更新
