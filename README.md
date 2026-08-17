@@ -32,6 +32,9 @@
 - After Effects 2026 → `NC_AE_Template_26.aep`
 - After Effects 2025 → `NC_AE_Template_25.aep`
 
+> ダウンロード・利用の前に **[利用規約 (TERMS.md)](TERMS.md)** を確認してください。
+> 個人・商用利用OK / 成果物の権利は利用者に帰属 / テンプレート自体の再配布・販売は禁止。
+
 ---
 
 ## ① プロジェクトテンプレートの設定方法
