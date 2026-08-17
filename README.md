@@ -32,7 +32,7 @@
 - After Effects 2026 → `NC_AE_Template_26.aep`
 - After Effects 2025 → `NC_AE_Template_25.aep`
 
-> ダウンロード・利用の前に **[Nemoharu Creative 配布物 利用規約 (TERMS.md)](TERMS.md)** を確認してください。
+> ダウンロード・利用の前に **[Nemoharu Creative 配布物 利用規約](https://topaz-gull-80e.notion.site/Nemoharu-Creative-3bfc75e7b42f810187b7d2f6b4f3f427)**（[TERMS.md](TERMS.md)）を確認してください。
 > （テンプレート・スクリプト・プラグインなど Nemoharu Creative の配布物に共通の規約です）
 > 個人・商用利用OK / 成果物の権利は利用者に帰属 / 配布物自体の再配布・販売は禁止。
 
