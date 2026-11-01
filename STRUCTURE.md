@@ -11,7 +11,7 @@ NC_AE_Template
 ├── 01_COMPOSITION
 │   ├── 01_Main             # 1 CUT = 1 コンポ。例: CUT_001〜CUT_004
 │   │   └── old             # 使わなくなったカットの退避先
-│   ├── 02_Elements         # 再利用エレメント。例: Particles / Glitch / Background / Noise / Overlay / LightSweep
+│   ├── 02_Sub              # サブコンポ（Mainから呼ぶプリコンプ・再利用エレメント）。例: Particles / Glitch / Background / Noise / Overlay / LightSweep
 │   │   └── old
 │   └── 03_Lyric            # 歌詞モーション。例: Lyric_A / Lyric_B / Lyric_Chorus
 │       └── old
