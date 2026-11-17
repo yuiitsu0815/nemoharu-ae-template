@@ -49,7 +49,7 @@ Google ドライブから、使っている AE のバージョンに合う方を
 - After Effects 2026 → [NC_AE_Template_26.aep](https://drive.google.com/file/d/1EEDlWi63ok44ZJf1uCwBTseca2hBPkfk/view)
 - After Effects 2025 → [NC_AE_Template_25.aep](https://drive.google.com/file/d/1eSJiVth7lxoi0Dl9WByNL1XOwRhHcxOv/view)
 
-過去の版は [GitHub Releases](https://github.com/yuiitsu0815/nemoharu-ae-template/releases) にあります（リポジトリにアクセスできる人のみ）。
+[GitHub Releases](https://github.com/yuiitsu0815/nemoharu-ae-template/releases) からも最新版と過去の版をダウンロードできます。
 
 > ダウンロード・利用の前に **[Nemoharu Creative 配布物 利用規約](https://topaz-gull-80e.notion.site/Nemoharu-Creative-3bfc75e7b42f810187b7d2f6b4f3f427)**（[TERMS.md](TERMS.md)）を確認してください。
 > （テンプレート・スクリプト・プラグインなど Nemoharu Creative の配布物に共通の規約です）

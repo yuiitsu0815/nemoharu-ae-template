@@ -7,6 +7,9 @@
 
 ---
 
+## [2026-11-18] ドキュメント
+- リポジトリを公開（public）に変更。GitHub Releases からログインなしでダウンロードできるようになった
+
 ## [2026-11-17] ドキュメント（Notion 廃止）
 - Notion の「Nemoharu AE Template File」「Document」ページを廃止し、文書はこのリポジトリ（README.md / STRUCTURE.md / DOCUMENT.md）だけで管理する
 - 一時的に追加した Notion 自動同期（Notion Sync ワークフロー / scripts/notion-sync）を削除
