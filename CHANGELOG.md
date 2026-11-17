@@ -7,6 +7,10 @@
 
 ---
 
+## [2026-11-17] ドキュメント（Notion 自動同期）
+- README.md / DOCUMENT.md を正本とし、push 時に Notion の2ページへ自動反映する GitHub Actions（Notion Sync）を追加。Secret `NOTION_TOKEN` 登録後に有効
+- README の DOWNLOAD を Google ドライブの公開リンク（AE 2026 / 2025）に変更
+
 ## [2026-11-17] ドキュメント
 - 制作ドキュメント / ファイル管理ガイド（Notion「Document」）を `DOCUMENT.md` としてリポジトリに追加
 - README に「関連ドキュメント」を追加し、README.md ⇔ Notion「Nemoharu AE Template File」、DOCUMENT.md ⇔ Notion「Document」の対応を明記

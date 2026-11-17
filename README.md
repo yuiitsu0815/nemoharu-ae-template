@@ -27,7 +27,7 @@
 
 ## 関連ドキュメント
 
-このリポジトリの文書は、Notion の2ページと同じ内容で管理しています。片方を直したら、もう片方も同じように直してください。
+文書の正本はこのリポジトリです。`main` に push すると、GitHub Actions（`.github/workflows/notion-sync.yml`）が Notion の2ページを自動で書き換えます。**Notion 側では直接編集しないでください。** 次の push で上書きされます。
 
 | リポジトリのファイル | Notion ページ | 内容 |
 | --- | --- | --- |
@@ -39,14 +39,31 @@
 - **DOCUMENT.md** は、PC 上の案件フォルダ全体のルールです。例: `NC26003_SoraeSora_MV/01_projects/ae/`
 - **README.md / STRUCTURE.md** は、その中に置く AE プロジェクトのプロジェクトパネル内のビン構成です。例: `00_FINAL` 〜 `99_SOLIDS`
 
+自動更新される範囲:
+
+- **README.md**: `<!-- notion-sync:start -->` 〜 `<!-- notion-sync:end -->` の間（「各フォルダの説明」）だけ。Notion ページ上部の画像・概要・ダウンロード・設定手順は Notion で手動管理です。
+- **DOCUMENT.md**: 目印の間すべて。
+- Notion 側は「自動更新されます」と書かれたコールアウトより下が書き換わります。このコールアウトは消さないでください。
+
+### 自動更新の初期設定（1回だけ）
+
+1. https://www.notion.so/profile/integrations で内部インテグレーションを作り、トークンをコピーする
+2. Notion の2ページそれぞれで「…」→「接続」からそのインテグレーションを追加する
+3. GitHub のこのリポジトリの Settings → Secrets and variables → Actions に `NOTION_TOKEN` としてトークンを登録する
+4. Actions タブで「Notion Sync」を手動実行して、2ページが更新されることを確認する
+
+トークン未登録のあいだは、ワークフローは何もせずに成功で終わります。
+
 ---
 
 ## DOWNLOAD
 
-**[GitHub Releases](https://github.com/yuiitsu0815/nemoharu-ae-template/releases)** から最新版をダウンロード。
+Google ドライブから、使っている AE のバージョンに合う方をダウンロードしてください。
 
-- After Effects 2026 → `NC_AE_Template_26.aep`
-- After Effects 2025 → `NC_AE_Template_25.aep`
+- After Effects 2026 → [NC_AE_Template_26.aep](https://drive.google.com/file/d/1EEDlWi63ok44ZJf1uCwBTseca2hBPkfk/view)
+- After Effects 2025 → [NC_AE_Template_25.aep](https://drive.google.com/file/d/1eSJiVth7lxoi0Dl9WByNL1XOwRhHcxOv/view)
+
+過去の版は [GitHub Releases](https://github.com/yuiitsu0815/nemoharu-ae-template/releases) にあります（リポジトリにアクセスできる人のみ）。
 
 > ダウンロード・利用の前に **[Nemoharu Creative 配布物 利用規約](https://topaz-gull-80e.notion.site/Nemoharu-Creative-3bfc75e7b42f810187b7d2f6b4f3f427)**（[TERMS.md](TERMS.md)）を確認してください。
 > （テンプレート・スクリプト・プラグインなど Nemoharu Creative の配布物に共通の規約です）
@@ -72,6 +89,7 @@
 
 ---
 
+<!-- notion-sync:start -->
 ## 各フォルダの説明
 
 ## 00_FINAL
@@ -247,6 +265,7 @@ proxy動画
 After EffectsのSolid素材を格納するフォルダ。
 プロジェクト内に自動生成されるSolidを
 このフォルダにまとめて管理する。
+<!-- notion-sync:end -->
 
 ---
 

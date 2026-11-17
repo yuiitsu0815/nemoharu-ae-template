@@ -21,3 +21,6 @@ desktop.ini
 .vscode/
 .idea/
 *~
+
+# === Notion 同期スクリプトの依存 ===
+node_modules/
