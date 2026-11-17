@@ -7,6 +7,10 @@
 
 ---
 
+## [2026-11-17] ドキュメント
+- 制作ドキュメント / ファイル管理ガイド（Notion「Document」）を `DOCUMENT.md` としてリポジトリに追加
+- README に「関連ドキュメント」を追加し、README.md ⇔ Notion「Nemoharu AE Template File」、DOCUMENT.md ⇔ Notion「Document」の対応を明記
+
 ## [2026-11-02] 構造変更 / AEP更新
 - ビン名変更: `01_COMPOSITION/02_Elements` → `01_COMPOSITION/02_Sub`（サブコンポ／プリコンプ置き場として名称を整理）
 - 25/26 両方の AEP に反映（`old` サブビン等ほかの階層は変更なし）

@@ -25,6 +25,22 @@
 
 ---
 
+## 関連ドキュメント
+
+このリポジトリの文書は、Notion の2ページと同じ内容で管理しています。片方を直したら、もう片方も同じように直してください。
+
+| リポジトリのファイル | Notion ページ | 内容 |
+| --- | --- | --- |
+| [README.md](README.md)（このファイル） | [Nemoharu AE Template File](https://app.notion.com/p/31ec75e7b42f80a8937bf2c8c0883638) | AE テンプレートの使い方と、プロジェクトパネル内のビン構成 |
+| [DOCUMENT.md](DOCUMENT.md) | [Document](https://app.notion.com/p/323c75e7b42f802eb8f4c73ccc7a2b63) | 制作ドキュメント / ファイル管理ガイド（プロジェクトID・案件フォルダ構成・命名規則・バージョニング） |
+
+2つの役割の違い:
+
+- **DOCUMENT.md** は、PC 上の案件フォルダ全体のルールです。例: `NC26003_SoraeSora_MV/01_projects/ae/`
+- **README.md / STRUCTURE.md** は、その中に置く AE プロジェクトのプロジェクトパネル内のビン構成です。例: `00_FINAL` 〜 `99_SOLIDS`
+
+---
+
 ## DOWNLOAD
 
 **[GitHub Releases](https://github.com/yuiitsu0815/nemoharu-ae-template/releases)** から最新版をダウンロード。

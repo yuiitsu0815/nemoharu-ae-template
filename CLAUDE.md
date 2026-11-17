@@ -10,6 +10,10 @@ Nemoharu（映像クリエイター）が、AEプロジェクトのフォルダ/
   1. `STRUCTURE.md`（正本を編集）
   2. `README.md`（該当箇所の説明・表を同期）
   3. `CHANGELOG.md`（先頭に `## [YYYY-MM-DD] 種別` で1行追記。日付は実際の当日を使う）
+- **Notion と同期する文書**（対応表は README.md の「関連ドキュメント」）:
+  - `README.md` ⇔ Notion「Nemoharu AE Template File」（31ec75e7b42f80a8937bf2c8c0883638）
+  - `DOCUMENT.md` ⇔ Notion「Document」制作ドキュメント / ファイル管理ガイド（323c75e7b42f802eb8f4c73ccc7a2b63）
+  - どちらかを編集したら、もう片方にも同じ変更を反映する。Notion 側には画像・ダウンロード埋め込みがあるので、そこは Notion のみでよい。
 - `template/NC_AE_Template.aep` は**バイナリ**。中身はAEで手動編集する。Claudeは「ファイルの差し替え・add・commit」まで行い、AEPの中身自体は改変しない。
 - `*.aep` は Git LFS 管理（`.gitattributes`）。AEPを扱う前に `git lfs install` 済みか確認する。
 
