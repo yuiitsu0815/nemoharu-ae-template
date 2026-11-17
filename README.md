@@ -27,32 +27,18 @@
 
 ## 関連ドキュメント
 
-文書の正本はこのリポジトリです。`main` に push すると、GitHub Actions（`.github/workflows/notion-sync.yml`）が Notion の2ページを自動で書き換えます。**Notion 側では直接編集しないでください。** 次の push で上書きされます。
+文書はすべてこのリポジトリで管理しています（Notion には置いていません）。変更履歴は [CHANGELOG.md](CHANGELOG.md) と git の履歴で追えます。
 
-| リポジトリのファイル | Notion ページ | 内容 |
-| --- | --- | --- |
-| [README.md](README.md)（このファイル） | [Nemoharu AE Template File](https://app.notion.com/p/31ec75e7b42f80a8937bf2c8c0883638) | AE テンプレートの使い方と、プロジェクトパネル内のビン構成 |
-| [DOCUMENT.md](DOCUMENT.md) | [Document](https://app.notion.com/p/323c75e7b42f802eb8f4c73ccc7a2b63) | 制作ドキュメント / ファイル管理ガイド（プロジェクトID・案件フォルダ構成・命名規則・バージョニング） |
+| ファイル | 内容 |
+| --- | --- |
+| [README.md](README.md)（このファイル） | AE テンプレートの使い方と、プロジェクトパネル内のビン構成の説明 |
+| [STRUCTURE.md](STRUCTURE.md) | ビン構成の正本 |
+| [DOCUMENT.md](DOCUMENT.md) | 制作ドキュメント / ファイル管理ガイド（プロジェクトID・案件フォルダ構成・命名規則・バージョニング） |
 
 2つの役割の違い:
 
 - **DOCUMENT.md** は、PC 上の案件フォルダ全体のルールです。例: `NC26003_SoraeSora_MV/01_projects/ae/`
 - **README.md / STRUCTURE.md** は、その中に置く AE プロジェクトのプロジェクトパネル内のビン構成です。例: `00_FINAL` 〜 `99_SOLIDS`
-
-自動更新される範囲:
-
-- **README.md**: `<!-- notion-sync:start -->` 〜 `<!-- notion-sync:end -->` の間（「各フォルダの説明」）だけ。Notion ページ上部の画像・概要・ダウンロード・設定手順は Notion で手動管理です。
-- **DOCUMENT.md**: 目印の間すべて。
-- Notion 側は「自動更新されます」と書かれたコールアウトより下が書き換わります。このコールアウトは消さないでください。
-
-### 自動更新の初期設定（1回だけ）
-
-1. https://www.notion.so/profile/integrations で内部インテグレーションを作り、トークンをコピーする
-2. Notion の2ページそれぞれで「…」→「接続」からそのインテグレーションを追加する
-3. GitHub のこのリポジトリの Settings → Secrets and variables → Actions に `NOTION_TOKEN` としてトークンを登録する
-4. Actions タブで「Notion Sync」を手動実行して、2ページが更新されることを確認する
-
-トークン未登録のあいだは、ワークフローは何もせずに成功で終わります。
 
 ---
 
@@ -89,7 +75,6 @@ Google ドライブから、使っている AE のバージョンに合う方を
 
 ---
 
-<!-- notion-sync:start -->
 ## 各フォルダの説明
 
 ## 00_FINAL
@@ -265,7 +250,6 @@ proxy動画
 After EffectsのSolid素材を格納するフォルダ。
 プロジェクト内に自動生成されるSolidを
 このフォルダにまとめて管理する。
-<!-- notion-sync:end -->
 
 ---
 

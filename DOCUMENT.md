@@ -1,9 +1,7 @@
 # 制作ドキュメント / ファイル管理ガイド
 
-> このファイルが正本です。`main` に push すると Notion「Document」ページが自動で書き換わります。Notion 側では編集しないでください（仕組みは [README.md](README.md#関連ドキュメント) を参照）。
-> 変更履歴は [CHANGELOG.md](CHANGELOG.md) と git の履歴で追えます。
+> このファイルが正本です（Notion 版は 2026-11-17 に廃止）。変更したらコミットし、[CHANGELOG.md](CHANGELOG.md) に1行追記してください。
 
-<!-- notion-sync:start -->
 ## 目次
 
 1. [基本ルール](#1-基本ルール)
@@ -735,4 +733,3 @@ yyyy-mm-dd_to名前_内容
 - 最終納品データは `07_final` に保存する
 - 不要データは削除せず `(old)` に移動する
 - 命名は短く、ただし意味が分かることを優先する
-<!-- notion-sync:end -->

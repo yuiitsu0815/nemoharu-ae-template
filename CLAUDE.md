@@ -10,13 +10,9 @@ Nemoharu（映像クリエイター）が、AEプロジェクトのフォルダ/
   1. `STRUCTURE.md`（正本を編集）
   2. `README.md`（該当箇所の説明・表を同期）
   3. `CHANGELOG.md`（先頭に `## [YYYY-MM-DD] 種別` で1行追記。日付は実際の当日を使う）
-- **文書の正本はこのリポジトリ。Notion へは push で自動反映**（`.github/workflows/notion-sync.yml` → `scripts/notion-sync/sync.mjs`）:
-  - `README.md` の `<!-- notion-sync:start/end -->` の間 → Notion「Nemoharu AE Template File」（31ec75e7b42f80a8937bf2c8c0883638）
-  - `DOCUMENT.md` の目印の間 → Notion「Document」制作ドキュメント / ファイル管理ガイド（323c75e7b42f802eb8f4c73ccc7a2b63）
-  - Notion 側は「自動更新されます」コールアウトより下が毎回書き換わる。**Notion で本文を直さない**。コールアウトより上（画像・概要・DOWNLOAD・設定手順）は Notion で手動管理。
-  - 対象ページの追加は `scripts/notion-sync/targets.json`。Secret `NOTION_TOKEN` 未登録の間はスキップされる。
-  - 変換確認は `cd scripts/notion-sync && npm ci && node sync.mjs --dry-run`（トークン不要）。
-  - 構造変更で README の「各フォルダの説明」を直せば、push と同時に Notion も更新される。
+- **文書はこのリポジトリだけで管理する**（2026-11-17 に Notion の「Nemoharu AE Template File」「Document」ページは廃止）。
+  - `DOCUMENT.md` = 制作ドキュメント / ファイル管理ガイド（案件フォルダ・命名規則）。変更時は CHANGELOG に `ドキュメント（制作ガイド）` として追記。
+  - 公開向けの説明は Notion「Nemoharu Creative Tools」→ ツール一覧の NC_AE_Template 行のページ（設定方法・フォルダ構成の要約・Drive リンク）。構造を変えたらそこの「フォルダ構成」表も直す。
 - `template/NC_AE_Template.aep` は**バイナリ**。中身はAEで手動編集する。Claudeは「ファイルの差し替え・add・commit」まで行い、AEPの中身自体は改変しない。
 - `*.aep` は Git LFS 管理（`.gitattributes`）。AEPを扱う前に `git lfs install` 済みか確認する。
 
