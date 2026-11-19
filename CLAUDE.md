@@ -10,8 +10,8 @@ Nemoharu（映像クリエイター）が、AEプロジェクトのフォルダ/
   1. `STRUCTURE.md`（正本を編集）
   2. `README.md`（該当箇所の説明・表を同期）
   3. `CHANGELOG.md`（先頭に `## [YYYY-MM-DD] 種別` で1行追記。日付は実際の当日を使う）
-- **文書はこのリポジトリだけで管理する**（2026-11-17 に Notion の「Nemoharu AE Template File」「Document」ページは廃止）。
-  - `DOCUMENT.md` = 制作ドキュメント / ファイル管理ガイド（案件フォルダ・命名規則）。変更時は CHANGELOG に `ドキュメント（制作ガイド）` として追記。
+- **AE テンプレートの文書はこのリポジトリで管理する**（Notion の「Nemoharu AE Template File」ページは 2026-11-17 に廃止）。
+  - 制作ドキュメント / ファイル管理ガイド（案件フォルダ・命名規則）は **Notion の「Document」ページが正本**（2026-11-19 にリポジトリの DOCUMENT.md から Notion へ戻した）。リポジトリには置かない。
   - 公開向けの説明は Notion「Nemoharu Creative Tools」→ ツール一覧の NC_AE_Template 行のページ（設定方法・フォルダ構成の要約・Drive リンク）。構造を変えたらそこの「フォルダ構成」表も直す。
 - `template/NC_AE_Template.aep` は**バイナリ**。中身はAEで手動編集する。Claudeは「ファイルの差し替え・add・commit」まで行い、AEPの中身自体は改変しない。
 - `*.aep` は Git LFS 管理（`.gitattributes`）。AEPを扱う前に `git lfs install` 済みか確認する。

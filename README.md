@@ -27,17 +27,16 @@
 
 ## 関連ドキュメント
 
-文書はすべてこのリポジトリで管理しています（Notion には置いていません）。変更履歴は [CHANGELOG.md](CHANGELOG.md) と git の履歴で追えます。
+AE テンプレートの文書はこのリポジトリで管理しています。変更履歴は [CHANGELOG.md](CHANGELOG.md) と git の履歴で追えます。案件フォルダ全体のルール（制作ドキュメント / ファイル管理ガイド）は、作者の Notion で管理しています（非公開）。
 
 | ファイル | 内容 |
 | --- | --- |
 | [README.md](README.md)（このファイル） | AE テンプレートの使い方と、プロジェクトパネル内のビン構成の説明 |
 | [STRUCTURE.md](STRUCTURE.md) | ビン構成の正本 |
-| [DOCUMENT.md](DOCUMENT.md) | 制作ドキュメント / ファイル管理ガイド（プロジェクトID・案件フォルダ構成・命名規則・バージョニング） |
 
-2つの役割の違い:
+役割の違い:
 
-- **DOCUMENT.md** は、PC 上の案件フォルダ全体のルールです。例: `NC26003_SoraeSora_MV/01_projects/ae/`
+- **制作ドキュメント（Notion）** は、PC 上の案件フォルダ全体のルールです。例: `NC26003_SoraeSora_MV/01_projects/ae/`
 - **README.md / STRUCTURE.md** は、その中に置く AE プロジェクトのプロジェクトパネル内のビン構成です。例: `00_FINAL` 〜 `99_SOLIDS`
 
 ---
