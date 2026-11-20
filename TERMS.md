@@ -1,6 +1,6 @@
 # Nemoharu Creative 配布物 利用規約
 
-公開ページ（常に最新版）: https://topaz-gull-80e.notion.site/Nemoharu-Creative-3bfc75e7b42f810187b7d2f6b4f3f427
+公開ページ（常に最新版）: https://nemoharu.studio.site/terms
 
 制定日: 2026年8月18日
 
