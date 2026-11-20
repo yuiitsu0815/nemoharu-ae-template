@@ -42,6 +42,6 @@ NC_AE_Template
 ## 変更時のチェックリスト
 
 - [ ] STRUCTURE.md を更新した
-- [ ] AEP（`template/NC_AE_Template_25.aep` / `_26.aep` の両方）に反映した
+- [ ] AEP（`template/NC_AE_Template_25.aep` / `_26.aep` / `_27.aep` のすべて）に反映した
 - [ ] 「新規プロジェクト平面フォルダー = 99_SOLIDS」を確認した
 - [ ] CHANGELOG.md に記録した

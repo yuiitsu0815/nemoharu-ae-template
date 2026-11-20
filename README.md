@@ -66,7 +66,7 @@ Google ドライブから、使っている AE のバージョンに合う方を
 新規プロジェクト
 ```
 
-**新規プロジェクト読み込みテンプレート**を**有効**にし、DLした **NC_AE_Template_26.aep**（AE 2025 の場合は `_25`）を選択する。
+**新規プロジェクト読み込みテンプレート**を**有効**にし、DLした **NC_AE_Template_27.aep**（AE 2026 の場合は `_26`、AE 2025 の場合は `_25`）を選択する。
 
 ## ② 新しいプロジェクト平面フォルダー
 
@@ -255,7 +255,7 @@ After EffectsのSolid素材を格納するフォルダ。
 ## 更新の運用ルール
 
 1. 構造・命名を変えるときは **STRUCTURE.md を先に編集**（ここが正本）。
-2. AEP テンプレート本体（`template/NC_AE_Template_25.aep` / `NC_AE_Template_26.aep`）を実際に更新。
+2. AEP テンプレート本体（`template/NC_AE_Template_25.aep` / `NC_AE_Template_26.aep` / `NC_AE_Template_27.aep`）を実際に更新。
 3. **CHANGELOG.md** に日付と変更内容を1行追記。
 4. コミットしてpush。リリースするときはタグを切って GitHub Release に AEP を添付。
 

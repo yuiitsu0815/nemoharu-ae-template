@@ -30,7 +30,7 @@ gh repo create nemoharu-ae-template --private --source=. --remote=origin --push
 
 ## 2. AEP 本体を追加
 
-AE バージョン別に2ファイル（`NC_AE_Template_25.aep` = AE 2025 用 / `NC_AE_Template_26.aep` = AE 2026 用）。
+AE バージョン別に3ファイル（`NC_AE_Template_25.aep` = AE 2025 用 / `NC_AE_Template_26.aep` = AE 2026 用 / `NC_AE_Template_27.aep` = AE 2027 用）。
 
 ```bash
 cp /path/to/NC_AE_Template_2X.aep template/

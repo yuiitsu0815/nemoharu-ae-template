@@ -5,7 +5,8 @@
 ```
 template/
 ├── NC_AE_Template_25.aep   ← After Effects 2025 用
-└── NC_AE_Template_26.aep   ← After Effects 2026 用（最新）
+├── NC_AE_Template_26.aep   ← After Effects 2026 用
+└── NC_AE_Template_27.aep   ← After Effects 2027 用（最新）
 ```
 
 使用中の AE バージョンに合った方を「新規プロジェクト読み込みテンプレート」に設定してください。
