@@ -9,6 +9,7 @@
 
 ## [2026-11-21] AEP更新（After Effects 2027 対応）
 - After Effects 2027 用の `template/NC_AE_Template_27.aep` を追加（26 版を AE 2027 で開いて保存。ビン構成は 25/26 と同じ）
+- README の DOWNLOAD を GitHub Releases（最新版）へのリンクに統一（Google ドライブのリンクをやめた）
 
 ## [2026-11-19] ドキュメント
 - 制作ドキュメント / ファイル管理ガイドを Notion「Document」に戻し、`DOCUMENT.md` を削除（README・CLAUDE.md の記述も更新）

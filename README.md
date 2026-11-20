@@ -43,12 +43,13 @@ AE テンプレートの文書はこのリポジトリで管理しています�
 
 ## DOWNLOAD
 
-Google ドライブから、使っている AE のバージョンに合う方をダウンロードしてください。
+使っている AE のバージョンに合うファイルをダウンロードしてください（GitHub Releases の最新版）。
 
-- After Effects 2026 → [NC_AE_Template_26.aep](https://drive.google.com/file/d/1EEDlWi63ok44ZJf1uCwBTseca2hBPkfk/view)
-- After Effects 2025 → [NC_AE_Template_25.aep](https://drive.google.com/file/d/1eSJiVth7lxoi0Dl9WByNL1XOwRhHcxOv/view)
+- After Effects 2027 → [NC_AE_Template_27.aep](https://github.com/yuiitsu0815/nemoharu-ae-template/releases/latest/download/NC_AE_Template_27.aep)
+- After Effects 2026 → [NC_AE_Template_26.aep](https://github.com/yuiitsu0815/nemoharu-ae-template/releases/latest/download/NC_AE_Template_26.aep)
+- After Effects 2025 → [NC_AE_Template_25.aep](https://github.com/yuiitsu0815/nemoharu-ae-template/releases/latest/download/NC_AE_Template_25.aep)
 
-[GitHub Releases](https://github.com/yuiitsu0815/nemoharu-ae-template/releases) からも最新版と過去の版をダウンロードできます。
+過去の版は [GitHub Releases](https://github.com/yuiitsu0815/nemoharu-ae-template/releases) から。
 
 > ダウンロード・利用の前に **[Nemoharu Creative 配布物 利用規約](https://nemoharu.studio.site/terms)**（[TERMS.md](TERMS.md)）を確認してください。
 > （テンプレート・スクリプト・プラグインなど Nemoharu Creative の配布物に共通の規約です）
