@@ -51,7 +51,7 @@ AE テンプレートの文書はこのリポジトリで管理しています�
 
 過去の版は [GitHub Releases](https://github.com/yuiitsu0815/nemoharu-ae-template/releases) から。
 
-> ダウンロード・利用の前に **[Nemoharu Creative 配布物 利用規約](https://nemoharu.studio.site/terms)**（[TERMS.md](TERMS.md)）を確認してください。
+> ダウンロード・利用の前に **[Nemoharu Creative 配布物 利用規約](https://nemoharu-creative.com/terms)**（[TERMS.md](TERMS.md)）を確認してください。
 > （テンプレート・スクリプト・プラグインなど Nemoharu Creative の配布物に共通の規約です）
 > 個人・商用利用OK / 成果物の権利は利用者に帰属 / 配布物自体の再配布・販売は禁止。
 

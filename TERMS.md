@@ -1,6 +1,6 @@
 # Nemoharu Creative 配布物 利用規約
 
-公開ページ（常に最新版）: https://nemoharu.studio.site/terms
+公開ページ（常に最新版）: https://nemoharu-creative.com/terms
 
 制定日: 2026年8月18日
 
